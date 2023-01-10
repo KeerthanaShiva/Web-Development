@@ -1,0 +1,202 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+p{
+    color: #8f8f8f;
+}
+
+/* title section */
+
+#title
+{
+    text-align: left;
+}
+
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title-heading
+{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.row
+{
+margin-top: 20px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat=light";
+}
+
+.download-button
+{
+    margin:5% 3% 5% 0;
+}
+
+.title-img
+{
+    margin-top: 50px;
+    width: 300px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* feature section */
+
+#features
+{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title
+{
+    font-size: 1.5rem;
+}
+
+.feature-icon:hover
+{
+    color: #5DA7DB;
+}
+
+.feature-box
+{
+    padding: 3%;
+}
+
+.feature-icon
+{
+    color: #81C6E8;
+    margin-bottom: 5px;
+}
+
+/* Testimonials */
+
+#testimonials
+{
+    color:#898AA6;
+}
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image
+{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+/* press section */
+
+#press
+{
+    padding-bottom: 30px;
+}
+
+.press-logo
+{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing
+{
+    padding: 60px;
+}
+
+.price-text
+{
+font-size: 3rem;
+line-height: 1.5;
+}
+
+.pricing-column
+{
+    padding: 5% 2%;
+    
+}
+
+/* cta section */
+
+.cta-heading
+{
+    font-family: "Montserrat-Bold";
+    line-height: 3.5rem;
+    font-size: 4rem;
+    
+}
+
+/* footer section */
+
+#footer
+{
+    line-height: 1.5rem;
+}
+
+.social-icon
+{
+    margin:20px 10px;
+}
+
+@media (max-width:900px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+
+.colored-section
+{
+    background-color: #C4D7E0;
+    color: #898AA6;
+}
+
+.white-section
+{
+    background-color: white;
+}
